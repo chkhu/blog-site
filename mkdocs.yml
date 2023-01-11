@@ -1,0 +1,31 @@
+site_name: Personal Blog of HU's
+
+repo_name: 'github:chkhu/blog-site'
+repo_url: 'https://github.com/chkhu/blog-site.git'
+theme:
+  name: material
+  palette:
+    primary: blue grey
+    accent: indigo
+  font:
+    text: Open Sans
+    code: Fira Code
+  logo: logo/favicon.png
+  favicon: images/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+plugins:
+  - search
+  - offline
+icon:
+  repo: fontawesome/brands/github
+  
