@@ -26,6 +26,3 @@ theme:
 plugins:
   - search
   - offline
-icon:
-  repo: fontawesome/brands/github
-  
